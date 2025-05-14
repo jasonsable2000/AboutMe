@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <!--Flowise-->
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "caa56447-200e-443c-9396-968b2e4bebcd",
+            apiHost: "https://19sable90-mychatbot.hf.space",
+        })
+    </script>
 </head>
 <body>
     <div id="mobile-menu-open" class="shadow-large">
@@ -247,14 +255,6 @@
         </div>
     </footer>
     <!-- End footer -->
-     <!--Flowise-->
-    <script type="module">
-        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-        Chatbot.init({
-            chatflowid: "0e704c04-84bb-4799-a8d2-97869467a920",
-            apiHost: "https://cloud.flowiseai.com",
-        })
-    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
