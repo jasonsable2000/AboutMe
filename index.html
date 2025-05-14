@@ -247,7 +247,13 @@
         </div>
     </footer>
     <!-- End footer -->
-
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "0e704c04-84bb-4799-a8d2-97869467a920",
+            apiHost: "https://cloud.flowiseai.com",
+        })
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
